@@ -25,9 +25,9 @@ export function canMoveKnight(toX, toY) {
   const [x, y] = knightPosition
   const dx = toX - x
   const dy = toY - y
-  console.log("where to move", toX, toY)
-  console.log("current pos", x, y)
-  console.log("allowed or not", dx, dy)
+//   console.log("where to move", toX, toY)
+//   console.log("current pos", x, y)
+//   console.log("allowed or not", dx, dy)
 //   differnece must be x by 2 and y by 1 or y by 2 and x by 1
 
   return (
